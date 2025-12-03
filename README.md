@@ -182,7 +182,7 @@
 | Complexidade | Alta (XML pesado)    | Baixa (HTTP simples)                     |
 | Desempenho   | Mais lento           | Mais rápido                              |
 | Segurança    | Integrada            | Via HTTPS/tokens                         |
-| Casos de uso | Corporativo complexo | Web aberta/móvel [attached_file:file:14] |
+| Casos de uso | Corporativo complexo | Web aberta/móvel                         |
 ### Arquitetura de Microsserviços
 - **Conceito:** aplicação dividida em pequenos serviços independentes, cada um com função específica.
 - **Características principais:**
@@ -197,7 +197,7 @@
 | Flexibilidade/agilidade | Complexidade de comunicação                                  |
 | Escalabilidade seletiva | Gerenciamento/orquestração                                   |
 | Manutenção simplificada | Testes/monitoramento complexos                               |
-| Resistência a falhas    | Necessita APIs REST para comunicação [attached_file:file:14] |
+| Resistência a falhas    | Necessita APIs REST para comunicação.                        |
 
 ### Web 2.0: Aplicativos Interativos
 - **AJAX:** comunicação assíncrona (sem recarregar página), experiência fluida.
@@ -565,7 +565,7 @@
 | ------ | -------------------- | ---------------------------- | ------------------------------------- |
 | **EV** | Estendida (rigorosa) | Nome da organização na barra | Bancos, e-commerce                    |
 | **OV** | Organização          | Nome da organização          | Empresas médias                       |
-| **DV** | Apenas domínio       | Cadeado básico               | Sites simples [attached_file:file:19] |
+| **DV** | Apenas domínio       | Cadeado básico               | Sites simples                         |
 
 ## Indicadores de Segurança nos Navegadores
 - **Ícone de cadeado:** conexão HTTPS criptografada
@@ -588,7 +588,7 @@
 | **Chave**        | Única (compartilhada)  | Par (pública/privada)                       |
 | **Eficiência**   | Alta (grandes volumes) | Baixa (computacional)                       |
 | **Distribuição** | Desafio (segura)       | Fácil (pública aberta)                      |
-| **Uso típico**   | Dados em trânsito      | Autenticação/chaves [attached_file:file:19] |
+| **Uso típico**   | Dados em trânsito      | Autenticação/chaves                         |
 
 ## Criptografia Ponta a Ponta
 - **Definição:** apenas remetente/destinatário decifram
@@ -611,7 +611,7 @@
   | Smartwatches | Monitoramento biométrico |
   | Sensores agrícolas | Otimização de produção |
   | Veículos conectados | Segurança/eficiência |
-  | Cidades inteligentes | Gestão de tráfego/resíduos [attached_file:file:20] |
+  | Cidades inteligentes | Gestão de tráfego/resíduos |
 
 ### Desafios de Integração IoT
 | Desafio                      | Soluções                                            |
@@ -619,13 +619,13 @@
 | **Endereços IP**             | IPv6 para escalabilidade                            |
 | **Largura de banda**         | Otimização de infraestrutura                        |
 | **Segurança**                | Autenticação, criptografia, monitoramento           |
-| **Gerenciamento de energia** | Protocolos de baixo consumo [attached_file:file:20] |
+| **Gerenciamento de energia** | Protocolos de baixo consumo                         |
 
 ### Protocolos IoT
 - **MQTT:** mensagens leves para redes restritas
 - **CoAP:** dispositivos com hardware limitado
 - **HTTP/HTTPS:** integração com web
-- **LoRaWAN:** longo alcance para áreas extensas [attached_file:file:20]
+- **LoRaWAN:** longo alcance para áreas extensas 
 
 ## Redes Definidas por Software (SDN)
 - **Conceito:** separa plano de controle (decisões) do plano de dados (transmissão).
@@ -643,7 +643,7 @@
 - Adaptação dinâmica em tempo real
 - Otimização de recursos (banda, roteamento)
 - Suporte rápido a novos serviços
-- **Casos de uso:** data centers, redes empresariais, provedores WAN [attached_file:file:20]
+- **Casos de uso:** data centers, redes empresariais, provedores WAN 
 
 ## Web 3.0 e Blockchains
 - **Descentralização:** elimina intermediários (bancos, plataformas)
@@ -658,7 +658,7 @@
 | Gestão de identidade   | Controle pessoal de dados                      |
 | Cadeia de suprimentos  | Transparência/rastreabilidade                  |
 | Saúde                  | Registros médicos seguros                      |
-| Votação eletrônica     | Transparência imutável [attached_file:file:20] |
+| Votação eletrônica     | Transparência imutável                         |
 
 ## Machine Learning e IA na Segurança
 - **Princípios ML:** treinamento por experiência, algoritmos adaptativos.
@@ -686,14 +686,14 @@
 | ------------------------ | ----------------------------------------------- |
 | Controle total           | Alto custo inicial                              |
 | Conformidade regulatória | Manutenção manual                               |
-| Baixa latência           | Escalabilidade limitada [attached_file:file:20] |
+| Baixa latência           | Escalabilidade limitada                         |
 
 ### Nuvem
 | Vantagem                 | Desvantagem                                               |
 | ------------------------ | --------------------------------------------------------- |
 | Escalabilidade           | Dependência do provedor                                   |
 | Atualizações automáticas | Menos controle                                            |
-| Baixo custo inicial      | Possíveis questões de privacidade [attached_file:file:20] |
+| Baixo custo inicial      | Possíveis questões de privacidade                         |
 
 ### Principais Provedores Cloud
 - **AWS, Azure, Google Cloud, IBM Cloud, Alibaba, Oracle, DigitalOcean, VMware, Red Hat OpenShift, Salesforce**
